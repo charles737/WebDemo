@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RegExp</title>
+</head>
+<body>
+
+    <script>
+        var reg = new RegExp("^\\w{6,12}$");
+        var reg2 = /^\w{6,12}$/;
+
+        // alert(reg);
+        // alert(reg2);
+
+        var user = "zhangsan";
+        var flag = reg2.test(user);
+
+        alert(flag);
+
+    </script>
+
+</body>
+</html>
