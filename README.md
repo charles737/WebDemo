@@ -1,1 +1,1 @@
-### Demo of html,javascript,css study.
+### Demo of html, javascript, css study.
